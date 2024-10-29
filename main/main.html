@@ -11,46 +11,62 @@
 
 <body>
     <header>
-        <div id="header-section-1">
+        <div class="header-section-1">
             <img src="./imgs/메인 헤더 그림.svg" alt="">
             <!-- <img src="./imgs/배경-메인.svg" alt=""> -->
         </div>
-        <div id="header-section-2">
+        <div class="header-section-2">
             <ul>
                 <li><a href="../login/login.html">Login</a></li>
-                <li><a href="../sign in/sighin.html">Signin</a></li>
+                <li><a href="../sign in/sighin.html">Sign in</a></li>
                 <li><a href="../cart/cart.html">cart</a></li>
                 <li><a href="../shop-main/shop.html">shop</a></li>
             </ul>
-            <p id="main-title">Ocha</p>
-            <p id="main-subtitle">tea-market</p>
-            <button id="header-btn">See More<i class="fa-solid fa-arrow-right"></i></button>
+            <p class="main-title">Ocha</p>
+            <p class="main-subtitle">tea-market</p>
+            <button class="header-btn">See More<i class="fa-solid fa-arrow-right"></i></button>
+            <p class="more-see">스크롤 하여 더보기<i class="fa-solid fas fa-arrow-down"></i></p>
         </div>
     </header>
 
     <main>
-        <section>
-            <p>BEST ITEM</p>
-            <p>가장 인기있는 상품을 만나보세요!</p>
-            <div>
+        <div class="main-section-img">
+            <img src="./imgs/메인 하단 배경.svg" alt="">
+            <section class="main-section-1">
+                <p class="best-item-title">BEST ITEM</p>
+                <p class="popular-item">가장 인기있는 상품을 만나보세요!</p>
+                <div class="product-item-box-big">
+                    <div class="product-item-box  product-item-box-1">
+                        <div>
+                            <img class="product-img" src="./imgs/twg-img.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="product-title"><a href="#">TWG 실버 문 티, 2.5g, 15개입, 2개</a></p>
+                            <p class="product-price">50,000원</p>
+                            <br>
+                            <p class="more-information">*배송비 별도</p>
+                        </div>
+                    </div>
+                    <div  class="product-item-box product-item-box-2">
+                        <div>
+                            <img class="product-img" src="./imgs/달랏 이미지.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="product-title"><a href="#">베트남 달랏 녹차 선물용 차 110g, 1개입, 110g, 6개</a> </p>
+                            <p class="product-price">81,750원</p>
+                            <br>
+                            <p class="more-information">*배송비 별도</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-section-2">
+                <p class="new-member-title">NEW MEMBER EVENT</p>
+                <p class="new-member-subtitle">새로운 회원님께 이밴트를 드려요!</p>
                 <img src="" alt="">
-                <p>TWG 실버 문 티, 2.5g, 15개입, 2개</p>
-                <p>50,000원</p>
-                <p>*배송비 별도</p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p>TWG 실버 문 티, 2.5g, 15개입, 2개</p>
-                <p>50,000원</p>
-                <p>*배송비 별도</p>
-            </div>
-        </section>
-        <section>
-            <p>NEW MEMBER EVENT</p>
-            <p>새로운 회원님께 이밴트를 드려요!</p>
-            <img src="" alt="">
-            <p>새로 가입하신 회원님께 10%할인권을 드려요!!</p>
-        </section>
+                <p>새로 가입하신 회원님께 10%할인권을 드려요!!</p>
+            </section>
+        </div>
     </main>
 
     <footer>
@@ -73,6 +89,9 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/c1be76ad53.js" crossorigin="anonymous"></script>
+    <script>
+
+    </script>
 </body>
 
 </html>
