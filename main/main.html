@@ -22,9 +22,10 @@
                 <li><a href="../cart/cart.html">cart</a></li>
                 <li><a href="../shop-main/shop.html">shop</a></li>
             </ul>
-            <p class="main-title">Ocha</p>
-            <p class="main-subtitle">tea-market</p>
-            <button class="header-btn">See More<i class="fa-solid fa-arrow-right"></i></button>
+            <p class="main-title  sa sa-up">Ocha</p>
+            <p class="main-subtitle sa sa-up">tea-market</p>
+            <button class="header-btn sa sa-up"> <a class="header-btn_a sa sa-up" href="../what_is_tea/tea.html">what is Ocha<i
+                        class="fa-solid fa-arrow-right"></i></a></button>
             <p class="more-see">스크롤 하여 더보기<i class="fa-solid fas fa-arrow-down"></i></p>
         </div>
     </header>
@@ -33,10 +34,10 @@
         <div class="main-section-img">
             <img src="./imgs/메인 하단 배경.svg" alt="">
             <section class="main-section-1">
-                <p class="best-item-title">BEST ITEM</p>
+                <p class="best-item-title sa sa-up">BEST ITEM</p>
                 <p class="popular-item">가장 인기있는 상품을 만나보세요!</p>
                 <div class="product-item-box-big">
-                    <div class="product-item-box  product-item-box-1">
+                    <div class="product-item-box  product-item-box-1 sa sa-up">
                         <div>
                             <img class="product-img" src="./imgs/twg-img.jpg" alt="">
                         </div>
@@ -47,7 +48,7 @@
                             <p class="more-information">*배송비 별도</p>
                         </div>
                     </div>
-                    <div  class="product-item-box product-item-box-2">
+                    <div class="product-item-box product-item-box-2  sa sa-up">
                         <div>
                             <img class="product-img" src="./imgs/달랏 이미지.jpg" alt="">
                         </div>
@@ -61,11 +62,12 @@
                 </div>
             </section>
             <section class="main-section-2">
-                <p class="new-member-title">NEW MEMBER EVENT</p>
-                <p class="new-member-subtitle">새로운 회원님께 이밴트를 드려요!</p>
-                <div class="flex-div">
-                    <img class="icon-main" src="./imgs/티켓 아이콘.svg" alt="">
-                    <p class="new-member-evevt-main-text">새로 가입하신 회원님께 <br>10%할인권을 드려요!!</p>
+                <p class="new-member-title sa sa-up">NEW MEMBER EVENT</p>
+                <div class=" sa sa-up">
+                    <p class="new-member-subtitle">새로운 회원님께 이밴트를 드려요!</p>
+                    <div class="flex-div">
+                        <img class="icon-main" src="./imgs/티켓-아이콘-1-[복구됨].png" alt="">
+                    </div>
                 </div>
             </section>
         </div>
@@ -81,7 +83,7 @@
             <li>디자인 :: 김민준</li>
             <li>기획 :: 김민준</li>
         </ul>
-        <ul class="footer-information-ul-2" >
+        <ul class="footer-information-ul-2">
             <li>email :: mijun820@gmail.com</li>
             <li>디자인 참고 :: 아임웹 템플릿Fresh Grove, SOF 참고</li>
             <li>전화번호 :: 010-5872-1556</li>
@@ -89,14 +91,28 @@
             <li>아이콘 출처 :: Freepik, Font Awesome</li>
         </ul>
         <div>
-            <p class="footer-title-1"><a href="#">Ocha</a></p>
-            <p class="footer-title-2"><a href="#">tea-market</a></p>
+            <p class="footer-title-1"><a href="../main/main.html">Ocha</a></p>
+            <p class="footer-title-2"><a href="../main/main.html">tea-market</a></p>
         </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/c1be76ad53.js" crossorigin="anonymous"></script>
     <script>
+        const saTriggerMargin = 300;
+        const saElementList = document.querySelectorAll('.sa');
 
+        const saFunc = function () {
+            for (const element of saElementList) {
+                if (!element.classList.contains('show')) {
+                    if (window.innerHeight > element.getBoundingClientRect().top + saTriggerMargin) {
+                        element.classList.add('show');
+                    }
+                }
+            }
+        }
+
+        window.addEventListener('load', saFunc);
+        window.addEventListener('scroll', saFunc);
     </script>
 </body>
 

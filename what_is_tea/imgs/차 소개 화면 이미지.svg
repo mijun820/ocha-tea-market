@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1920 3863">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cad593;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="_레이어_1" data-name="레이어_1">
+      <g id="_레이어_1-2" data-name="_레이어_1">
+        <rect class="cls-2" width="1920" height="3863"/>
+        <path class="cls-1" d="M1920-.43c-388.32,96.94-676,448.09-676,866.43s287.68,769.49,676,866.43V-.43Z"/>
+        <path class="cls-1" d="M0,968v1786c493.19,0,893-399.81,893-893S493.19,968,0,968Z"/>
+        <path class="cls-1" d="M1920,3863v-1289c-493.19,0-893,399.81-893,893,0,142.21,33.25,276.66,92.39,396h800.61Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

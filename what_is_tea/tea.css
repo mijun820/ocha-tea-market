@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 헤더 영역 시작 */
+header {
+    position: absolute;
+}
+
+.header_container {
+    position: absolute;
+    top: 0;
+}
+
+.header_container>ul {
+    display: flex;
+    list-style: none;
+}
+
+.header_img {
+    width: 100%;
+}
+
+.header_logo_img {
+    width: 100px;
+    margin: 0 0 0 8vw;
+}
+
+.header_title_img {
+    margin: 0 50vw 0 0;
+}
+
+.header_menu {
+    margin: 20px;
+}
+
+.header_menu_a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* 헤더 영역 끝 */
+
+/* 메인 영역 시작 */
+main {
+    background: no-repeat url(./imgs/차-소개-화면-이미지.png);
+    background-size: cover;
+}
+
+.main_title_img {
+    margin: 300px 0 100px 60px;
+    width: 700px;
+}
+
+.main_title_text {
+    font-size: 100px;
+    margin: 0 0 0 60px;
+}
+h2{
+    font-size: 40px;
+    margin: 0 0 0 60px;
+}
+p {
+    font-size: 20px;
+    margin: 0 0 100px 60px;
+}
+
+main>div{
+    display: flex;
+}
+
+.main_ul{
+    margin: 30px 0 40px 200px;
+}
+.main_imgs{
+    margin: 0 0 50px 50px ;
+}
+/* 메인 영역 끝 */
+
+/* 푸터 영역 시작 */
+footer {
+    display: flex;
+    background-color: #CAD593;
+}
+
+.footer-information-ul-1>li {
+    list-style: none;
+    margin: 10px 10px 0 100px;
+}
+
+.footer-information-ul-2>li {
+    list-style: none;
+    margin: 10px 10px 0 100px;
+}
+
+.footer-title-1 {
+    font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0 0 0 30px;
+}
+
+.footer-title-2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: -30px 0 0 30px;
+}
+
+.footer-title-1>a {
+    color: #A1C349;
+    text-decoration: none;
+}
+
+.footer-title-2>a {
+    color: #87A330;
+    text-decoration: none;
+}
+
+/* 푸터 영역 끝 */
